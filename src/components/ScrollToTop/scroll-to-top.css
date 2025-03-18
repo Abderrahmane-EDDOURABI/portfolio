@@ -1,0 +1,28 @@
+.scrollup {
+  position: fixed;
+  right: 1rem;
+  bottom: -50%;
+  background-color: var(--body-color);
+  color: var(--title-color);
+  display: inline-flex;
+  padding: 6px;
+  font-size: 1.5rem;
+  border-radius: 0.35rem;
+  z-index: var(--z-tooltip);
+  transition: bottom 0.4s, transform 0.4s;
+  box-shadow: 0px 4px 16px hsla(22, 100%, 8%, 0.2);
+  cursor: pointer;
+}
+
+.scrollup.show {
+  bottom: 3rem;
+}
+.scrollup:hover {
+  transform: translateY(-0.5rem);
+}
+
+@media screen AND (min-width: 1150px) {
+  .scrollup {
+    right: 3rem;
+  }
+}

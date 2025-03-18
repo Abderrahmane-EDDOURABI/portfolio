@@ -1,0 +1,9 @@
+{
+    "about__title" : "À Propos de Moi",
+    "about__description": "Curieux et créatif, j’ai exploré le développement web et le design d’interfaces pour mieux comprendre comment le code et le design peuvent transformer une simple idée en une expérience immersive. Aujourd’hui, je cherche à approfondir mes compétences en communication numérique et en marketing digitale, afin de concevoir des solutions plus performantes",
+    "about__technical_list": "Développement web, Design UX/UI, Responsive Design, SEO et optimisation de la performance, Community Management, Web Marketing.",
+    "about__technical": "Mes compétences techniques sont",
+    "about__soft_list" : "Esprit d'analyse, créativité, gestion de projet, esprit d'équipe, aptabilité, empathie utilisateur, communication",
+    "about__soft": "Mes compétences fonctionnelles sont",
+    "about__contact" : "Me Contactez"
+}

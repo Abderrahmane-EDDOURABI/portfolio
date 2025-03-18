@@ -1,0 +1,219 @@
+.home__container {
+    padding-top: 2rem;
+    margin-inline: auto;
+}
+
+.home__name {
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.home__profile {
+    position: relative;
+    justify-self: center;
+}
+
+.home__image {
+    width: 220px;
+}
+
+.home__img {
+    position: relative;
+    z-index: 10;
+}
+
+.home__shadow {
+    background-color: var(--container-color);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid var(--black-color);
+    bottom: -.75rem;
+    right: -.75rem;
+    z-index: 5;
+    transition: background-color .5s;
+}
+
+.home__profile .geometric-box {
+    top: 1.5rem;
+    left: -.7rem;
+    z-index: 10;
+}
+
+.home__social {
+    height: max-content;
+    position: absolute;
+    left: -3rem;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    height: 100%;
+}
+
+.home__social-link {
+    background-color: var(--black-color-light);
+    color: var(--white-color);
+    font-size: 1.25rem;
+    padding: 6px;
+    display: grid;
+    place-items: center;
+    transition: background-color .5s;
+}
+
+.home__social-link:hover {
+    background-color: var(--black-color);
+}
+
+.home__info {
+    margin-top: 4rem;
+}
+
+.home__description {
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+}
+
+
+.home__description b {
+    background: linear-gradient(90deg, hsla(14, 98%, 50%, .3), hsla(14, 98%, 50%, 0));
+}
+
+.home__description.dark b {
+    background: linear-gradient(90deg, hsla(14, 98%, 50%, .3), hsla(14, 80%, 50%, 0));
+}
+
+.home__scroll {
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.home__scroll-text {
+    display: none;
+}
+
+.home__scroll-box {
+    background-color: var(--black-color);
+    color: var(--white-color);
+    width: 36px;
+    height: 36px;
+    display: grid;
+    place-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color .5s;
+}
+
+.home__scroll-box svg {
+    animation : scroll-down 3s infinite;
+}
+
+@keyframes scroll-down {
+    0% {
+        transform : translateY(-1rem);
+        opacity: 0;
+    }
+    50% {
+        transform : translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform : translateY(.6rem);
+        opacity: 0;
+    }
+}
+
+@media screen AND (min-width: 1150px) {
+
+    .home__container {
+        grid-template-columns: repeat(2, 460px);
+        gap: 2rem 4rem;
+        align-items: center;
+        justify-content: center;
+        padding-block: 5.5rem;
+    }
+
+    .home__profile {
+        grid-column: 2 / 2;
+        grid-row: 1 / 3;
+    }
+
+    .home__image {
+        width: 350px;
+    }
+
+    .home__shadow {
+        right: -1.25rem;
+        bottom: -1.25rem;
+        border: 6px solid var(--black-color);
+    }
+
+    .home__name,
+    .home__description {
+        text-align: initial;
+    }
+
+    .home__name {
+        align-self: end;
+        font-size: 1.5rem;
+    }
+
+    .home__info {
+        align-self: flex-start;
+        margin-top: 0;
+    }
+
+    .home__description {
+        position: relative;
+        font-size: 1.5rem;
+        margin-bottom: 5.5rem;
+        padding-left: 3rem;
+    }
+
+    .home__description::after {
+        content: "";
+        width: 32px;
+        height: 2px;
+        background-color: var(--title-color);
+        position: absolute;
+        left: 0;
+        top: 14px;
+    }
+
+    .home__scroll {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        column-gap: .75rem;
+    }
+    .home__scroll-text {
+        display: block;
+        color: var(--text-color);
+        font-size: .813rem;
+        font-weight: var(--font-medium);
+    }
+    .home__scroll-box {
+        width: 44px;
+        height: 44px;
+    }
+    .home__scroll-box i {
+        font-size: 1.25rem;
+    }
+    .home__profile .geometric-box {
+        top: 15rem;
+    }
+    .home__social {
+        left: initial;
+        right: -6rem;
+    }
+    .home__social-link {
+        font-size: 1.5rem;
+        padding: .5rem;
+    }
+}

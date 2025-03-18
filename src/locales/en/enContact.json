@@ -1,0 +1,17 @@
+{
+    "contact__title": "Contact Me.",
+    "contact__description_one": "I will read all emails. Send me any message you want and I'll get back to you.",
+    "contact__description_two" : "I need your Name and Email Address, but you won't receive anything other than you'r reply.",
+    "contact__social__description_one" : "Does not send emails",
+    "contact__social__description_two" : "Write me on my social networks",
+    "contact__mail_title" : "Send Me A Message",
+    "contact__mail_label_name" : "First Name",
+    "contact__mail_label_email" : "Email Address",
+    "contact__mail_label_subject" : "Subject",
+    "contact__mail_label_message" : "Message",
+    "contact__mail_input_name" : "First Name",
+    "contact__mail_input_email" : "Email Address",
+    "contact__mail_input_subject" : "Subject",
+    "contact__mail_input_message" : "Message",
+    "contact__mail_input_button" : "Send Message"
+}

@@ -1,0 +1,17 @@
+{
+    "contact__title": "Me Contactez.",
+    "contact__description_one": "Je lirai tous les emails. Envoyez-moi le message que vous souhaitez et je vous répondrai.",
+    "contact__description_two" : "J'ai besoin de votre Nom et de votre Adresse Mail, mais vous ne recevrez rien d'autre que votre réponse.",
+    "contact__social__description_one" : "Vous ne voulez pas envoyer de Mail ?",
+    "contact__social__description_two" : "Écrivez-moi sur mes réseaux sociaux",
+    "contact__mail_title" : "Envoyez moi un message",
+    "contact__mail_label_name" : "Nom complet",
+    "contact__mail_label_email" : "Adresse email",
+    "contact__mail_label_subject" : "Subject",
+    "contact__mail_label_message" : "Message",
+    "contact__mail_input_name" : "Nom complet",
+    "contact__mail_input_email" : "Adresse email",
+    "contact__mail_input_subject" : "Sujet",
+    "contact__mail_input_message" : "Message",
+    "contact__mail_input_button" : "Envoyer"
+}

@@ -1,0 +1,9 @@
+{
+    "about__title" : "About Me",
+    "about__description": "Curious and creative, I explored web development and interface design to understand how code and design can transform a simple idea into an immersive experience. Today, I’m looking to deepen my expertise in digital communication and marketing, to create even more impactful solutions.",
+    "about__technical_list": "Web Development, UX/UI Design, Responsive Design, SEO And performance optimization, Community Management, Web Marketing.",
+    "about__technical": "My Technical Skills are",
+    "about__soft": "My Soft Skills are",
+    "about__soft_list" : "Analytical Thinking, creativity, project management, teamwork, adaptability, communication, user empathy",
+    "about__contact" : "Contact Me"
+}
